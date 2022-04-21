@@ -1,6 +1,4 @@
 from collections import deque
-from hashlib import new
-from operator import ne
 N, M = list(map(int, input().split()))
 
 table = [list(map(int, input().split())) for _ in range(N)]
